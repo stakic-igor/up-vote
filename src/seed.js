@@ -7,6 +7,7 @@ const submissions = [
         votes: 16,
         date: "03.12.2019",
         author: "jessjelly",
+        avatar: "https://avatar.iran.liara.run/public/6"
     },
     {
         id: 2,
@@ -16,6 +17,7 @@ const submissions = [
         votes: 5,
         date: "05.11.2011",
         author: "qazwsx",
+        avatar: "https://avatar.iran.liara.run/public/15"
     },
     {
         id: 3,
@@ -25,6 +27,7 @@ const submissions = [
         votes: 22,
         date: "03.12.2023",
         author: "katyperry",
+        avatar: "https://avatar.iran.liara.run/public/74"
     },
     {
         id: 4,
@@ -34,5 +37,6 @@ const submissions = [
         votes: 5,
         date: "05.09.2024",
         author: "beyonce",
+        avatar: "https://avatar.iran.liara.run/public/57"
     }
 ]
