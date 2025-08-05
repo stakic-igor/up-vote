@@ -40,3 +40,5 @@ const submissions = [
         avatar: "https://avatar.iran.liara.run/public/57"
     }
 ]
+
+export default submissions;
