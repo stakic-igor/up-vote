@@ -12,20 +12,20 @@ const upVote = (id) => {
 </script>
 
 <template>
-    <div class="border p-4 rounded" v-for="(submission, index) in submissions" :key="index">
-        <div class="flex items-center mb-4">
+    <div class="border p-4 rounded mb-1" v-for="(submission, index) in submissions" :key="index">
+        <div class="flex items-top mb-4">
             <img
-                class="w-16 h-16 rounded-full mb-4" 
+                class="w-16 h-16 rounded-full mb-4 mr-4" 
                 :src="submission.avatar" 
             />
-            <div>
+            <div class="mr-4">
                 <h3 class="text-lg">{{ submission.title }}</h3>
                 <p class="text-sm">{{ submission.description }}</p>
             </div>
-            <div class="flex flex-col items-center ml-auto">
-                <span class="text-gray-500 text-sm">Votes: {{ submission.votes }}</span>
+            <div class="flex flex-col items-center ml-auto ">
+                <p class="text-gray-500 text-sm">Votes: {{ submission.votes }}</p>
                 <button 
-                    class="bg-blue-500 text-white px-2 py-1 rounded" 
+                    class="bg-blue-500 text-white px-2 py-1 rounded cursor-pointer hover:bg-blue-600 mt-2" 
                     @click="upVote(submission.id)">
                     Vote
                 </button>
