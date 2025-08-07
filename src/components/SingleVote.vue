@@ -24,7 +24,9 @@ const upVote = (id) => {
             </div>
             <div class="flex flex-col items-center ml-auto">
                 <span class="text-gray-500 text-sm">Votes: {{ submission.votes }}</span>
-                <button class="bg-blue-500 text-white px-2 py-1 rounded" @click="upVote(submission.id)">
+                <button 
+                    class="bg-blue-500 text-white px-2 py-1 rounded" 
+                    @click="upVote(submission.id)">
                     Vote
                 </button>
             </div>
