@@ -34,7 +34,7 @@ const submissions = [
         title: "Blue",
         description: "lorem ipsum dolor sit amet consectetur adipiscing elit.",
         url: "#",
-        votes: 5,
+        votes: 7,
         date: "05.09.2024",
         author: "beyonce",
         avatar: "https://avatar.iran.liara.run/public/57"

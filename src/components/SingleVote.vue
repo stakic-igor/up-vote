@@ -1,4 +1,7 @@
 <script setup>
+
+const emit =defineEmits(['upVote', 'id'])
+
 const props = defineProps({
     submissions: {
         type: Array,
@@ -7,15 +10,16 @@ const props = defineProps({
 });
 
 const upVote = (id) => {
+    emit('upVote', id)
 }
 
 </script>
 
 <template>
     <div class="border p-4 rounded mb-1" v-for="(submission, index) in submissions" :key="index">
-        <div class="flex items-top mb-4">
+        <div class="flex items-top">
             <img
-                class="w-16 h-16 rounded-full mb-4 mr-4" 
+                class="w-16 h-16 rounded-full mr-4" 
                 :src="submission.avatar" 
             />
             <div class="mr-4">
