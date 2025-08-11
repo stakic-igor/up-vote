@@ -1,9 +1,8 @@
 const submissions = [
     {
         id: 1,
-        title: "Yellow pail",
+        title: "Yellow sun",
         description: "lorem ipsum dolor sit amet consectetur adipiscing elit.",
-        url: "#",
         votes: 16,
         date: "03.12.2019",
         author: "jessjelly",
@@ -11,10 +10,9 @@ const submissions = [
     },
     {
         id: 2,
-        title: "Green",
+        title: "Green land",
         description: "lorem ipsum dolor sit amet consectetur adipiscing elit.",
-        url: "#",
-        votes: 5,
+        votes: 55,
         date: "05.11.2011",
         author: "qazwsx",
         avatar: "https://avatar.iran.liara.run/public/15"
@@ -23,7 +21,6 @@ const submissions = [
         id: 3,
         title: "Purple wave",
         description: "lorem ipsum dolor sit amet consectetur adipiscing elit.",
-        url: "#",
         votes: 22,
         date: "03.12.2023",
         author: "katyperry",
@@ -31,9 +28,8 @@ const submissions = [
     },
     {
         id: 4,
-        title: "Blue",
+        title: "Blue sky",
         description: "lorem ipsum dolor sit amet consectetur adipiscing elit.",
-        url: "#",
         votes: 7,
         date: "05.09.2024",
         author: "beyonce",

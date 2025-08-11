@@ -16,7 +16,6 @@ const sortedSubmissions = computed(() => {
   return subs.value.sort((a, b) => b.votes - a.votes)
 })
 
-
 </script>
 
 <template>
